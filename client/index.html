@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Back End Assessment</title>
-  </head>
-  <body class="container">
+</head>
+<body class="container">
     <button id="complimentButton">Get a compliment</button>
+    <button id="fortunecookieButton">Get a fortune</button>
+    <button id="affirmationButton">Get an affirmation</button>
+    <div id="affirmationResult"></div>
+
+    <input type="text" id="goalInput" placeholder="Enter your goal">
+    <button id="setGoalButton">Set Goal</button>
+    <button id="getGoalButton">Check Progress</button>
+    <div id="goalResult"></div>
+
+    <select id="moodSelector">
+        <option value="happy">Happy</option>
+        <option value="motivated">Motivated</option>
+        <option value="relaxed">Relaxed</option>
+        <option value="creative">Creative</option>
+    </select>
+    <button id="moodButton">Get Mood Booster</button>
+    <div id="moodResult"></div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-    
-  </body>
+</body>
 </html>
